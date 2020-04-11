@@ -3,7 +3,7 @@ service: ${file(./package.json):name}
 provider:
   name: aws
   runtime: nodejs10.x
-  region: us-west-2
+  region: eu-west-1
   stage: ${env:ENVIRONMENT}
   timeout: 30
   memorySize: 128
